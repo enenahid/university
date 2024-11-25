@@ -1,0 +1,20 @@
+<?php
+//Function for Title Tag & Feature Image
+function office_theme_setup()
+{
+    add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
+}
+
+add_action('after_setup_theme', 'office_theme_setup');
+
+//Function for CSS & JS Support
+function office_theme_css_js_support(){
+    wp_enqueue_style('google-font-1', '//fonts.googleapis.com/css?family=Open+Sans:400,300');
+    wp_enqueue_style('google-font-2', '//fonts.googleapis.com/css?family=PT+Sans');
+    wp_enqueue_style('google-font-3', '//fonts.googleapis.com/css?family=Raleway');
+    wp_enqueue_style('bootstrap', '/assets/bootstrap/css/bootstrap.css');
+
+}
+
+add_action('wp_enqueue_scripts', 'office_theme_css_js_support');

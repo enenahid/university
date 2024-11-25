@@ -62,3 +62,38 @@ Stack trace:
 #15 C:\Users\NAHID\Local Sites\university\app\public\index.php(17): require('C:\\Users\\NAHID\\...')
 #16 {main}
   thrown in C:\Users\NAHID\Local Sites\university\app\public\wp-content\themes\University Theme\functions.php on line 4
+[24-Nov-2024 20:21:23 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\NAHID\Local Sites\university\app\public\wp-content\themes\Office Theme\functions.php on line 14
+[24-Nov-2024 20:21:24 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[24-Nov-2024 20:21:24 UTC] PHP Warning:  Trying to access array offset on false in C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[24-Nov-2024 20:35:30 UTC] PHP Parse error:  syntax error, unexpected identifier "google", expecting ")" in C:\Users\NAHID\Local Sites\university\app\public\wp-content\themes\Office Theme\functions.php on line 16
+[24-Nov-2024 20:37:31 UTC] PHP Parse error:  syntax error, unexpected identifier "bootstrap", expecting ")" in C:\Users\NAHID\Local Sites\university\app\public\wp-content\themes\Office Theme\functions.php on line 16
+[24-Nov-2024 20:38:57 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "office_theme_css_js_support" not found or invalid function name in C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\general-template.php(3064): do_action('wp_head')
+#7 C:\Users\NAHID\Local Sites\university\app\public\wp-content\themes\Office Theme\index.php(34): wp_head()
+#8 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\NAHID\\...')
+#9 C:\Users\NAHID\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\NAHID\\...')
+#10 C:\Users\NAHID\Local Sites\university\app\public\index.php(17): require('C:\\Users\\NAHID\\...')
+#11 {main}
+  thrown in C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 324
+[24-Nov-2024 20:38:57 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "office_theme_css_js_support" not found or invalid function name in C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\general-template.php(3064): do_action('wp_head')
+#7 C:\Users\NAHID\Local Sites\university\app\public\wp-content\themes\Office Theme\index.php(34): wp_head()
+#8 C:\Users\NAHID\Local Sites\university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\NAHID\\...')
+#9 C:\Users\NAHID\Local Sites\university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\NAHID\\...')
+#10 C:\Users\NAHID\Local Sites\university\app\public\index.php(17): require('C:\\Users\\NAHID\\...')
+#11 {main}
+  thrown in C:\Users\NAHID\Local Sites\university\app\public\wp-includes\class-wp-hook.php on line 324
